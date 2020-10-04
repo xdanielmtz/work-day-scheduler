@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+
 }
 
 textarea{
@@ -23,6 +24,11 @@ textarea{
 
 .description{
   white-space: pre-wrap;
+}
+
+img{
+  height: 1rem;
+  width: 1rem;
 }
 
 .time-block{
