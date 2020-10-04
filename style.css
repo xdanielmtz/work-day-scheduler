@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  /* background-image: url(https://wallpapertag.com/wallpaper/full/e/4/0/787865-solid-backgrounds-1920x1080-for-xiaomi.jpg); */
 
 }
 
@@ -12,6 +13,8 @@ textarea{
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  width: 38rem;
+  height: 4rem;
 }
 
 .jumbotron {
