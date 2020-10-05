@@ -1,7 +1,7 @@
 var m = moment();
 var newM = m.format("dddd MMM Mo YYYY");
 
-// sets current day bolow the title
+// sets current day below the title
 var myCurrentDate = $("#currentDate").text(newM);
 // styling the date
 myCurrentDate.css("font-size", "20px");
@@ -11,3 +11,5 @@ myCurrentDate.css("font-weight", "bold");
 $( ".saveBtn" ).click(function( event ) {
     event.preventDefault();
   });
+
+  
