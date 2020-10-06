@@ -1,5 +1,7 @@
 var m = moment();
 var newM = m.format("dddd MMM Mo YYYY");
+var theCurrentTime = parseInt(moment().format("hh"));
+console.log(theCurrentTime);
 
 // sets current day below the title
 var myCurrentDate = $("#currentDate").text(newM);
@@ -12,4 +14,3 @@ $( ".saveBtn" ).click(function( event ) {
     event.preventDefault();
   });
 
-  
