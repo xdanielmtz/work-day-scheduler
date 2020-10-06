@@ -16,7 +16,7 @@ var myCurrentDate = $("#currentDate").text(newM);
 myCurrentDate.css("font-size", "20px");
 myCurrentDate.css("font-weight", "bold");
 const rows = document.getElementsByClassName("newRows");
-let currentHour = parseInt(moment().format('H'));
+let currentHour = parseInt(moment().format('hh'));
 
 //used for each method to compare the current time with my id's of each text area tag in the html.
 Array.from(rows).forEach(textarea => {
