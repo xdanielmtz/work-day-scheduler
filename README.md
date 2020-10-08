@@ -26,8 +26,8 @@ Follow these steps to view my project!
 
 
 ## Deployed Site Link:
-(Code Quiz) https://xdanielmtz.github.io/code-quiz/ 
+(Work Day Scheduler) https://xdanielmtz.github.io/work-day-scheduler/
 
 
 ## Sneak Peak:
-![Main Page](code.jpg) 
+![Main Page](work-day-scheduler.png) 
