@@ -2,6 +2,8 @@ $(document).ready(function() {
 
 var m = moment();
 
+
+
 // shows the current date
 var newM = m.format("dddd MMM Mo YYYY");
 
@@ -11,6 +13,7 @@ console.log(theCurrentTime);
 
 // sets current day below the title
 var myCurrentDate = $("#currentDate").text(newM);
+
 
 // styling the date
 myCurrentDate.css("font-size", "20px");
@@ -52,3 +55,96 @@ $( ".saveBtn" ).click(function( event ) {
     event.preventDefault();
   });
 
+
+
+
+
+  function mySave() {
+    var myContent = document.getElementById("9").value;
+    localStorage.getItem("myContent");
+    localStorage.setItem("myContent", myContent);
+
+  }
+
+  function mySave10() {
+    var myContent = document.getElementById("10").value;
+    localStorage.getItem("myContent");
+    localStorage.setItem("myContent", myContent);
+
+  }
+
+  function mySave11() {
+    var myContent = document.getElementById("11").value;
+    localStorage.getItem("myContent");
+    localStorage.setItem("myContent", myContent);
+
+  }
+
+  function mySave12() {
+    var myContent = document.getElementById("12").value;
+    localStorage.getItem("myContent");
+    localStorage.setItem("myContent", myContent);
+
+  }
+
+  function mySave1() {
+    var myContent = document.getElementById("1").value;
+    localStorage.getItem("myContent");
+    localStorage.setItem("myContent", myContent);
+
+  }
+
+  function mySave2() {
+    var myContent = document.getElementById("2").value;
+    localStorage.getItem("myContent");
+    localStorage.setItem("myContent", myContent);
+
+  }
+
+  function mySave3() {
+    var myContent = document.getElementById("3").value;
+    localStorage.getItem("myContent");
+    localStorage.setItem("myContent", myContent);
+
+  }
+
+  function mySave4() {
+    var myContent = document.getElementById("4").value;
+    localStorage.getItem("myContent");
+    localStorage.setItem("myContent", myContent);
+
+  }
+
+  function mySave5() {
+    var myContent = document.getElementById("5").value;
+    localStorage.getItem("myContent");
+    localStorage.setItem("myContent", myContent);
+
+  }
+
+  
+    
+
+    // save the button - onclick - 
+    // create 2 variables that grab content from the html 
+    // 1. value - data : var value = $(this).siblings(".newRows").val()
+    // var theValue = $(this).siblings("")
+    // 2. time - time block : $(this).parent().attr(id)
+    // save the information to the local storage localStorage.setItem(time, value);
+
+    // theId pertains to the time block - i.e. myContent
+
+    // When grabbing from the local storage -
+// $("#myContent .time").val(localStorage.getItem("myContent"))
+// $("#myContent .time").val(localStorage.getItem("myContent"))
+
+
+
+
+
+
+
+
+
+
+  
